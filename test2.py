@@ -31,8 +31,11 @@ def distance(var1, var2):
 distance('dog', 'cat')
 distance('bat', 'cat')
 #distance('', 'bob')
-#distance(None, 3)
+distance(None, 3)
 distance('asdasd', '12321asd1')
+
+# come up with test cases that break the function above
+
 
 
 # What data structure would be better to "compare" characters? ... How does the computer store characters
