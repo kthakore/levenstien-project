@@ -18,4 +18,4 @@ if var1[2] == var2[2]:
 else:
     var5 = var5 + 1
 
-print("The levenshtien distance is ", var3+var4+var5)
+print("The levenshtien distancegi is ", var3+var4+var5)

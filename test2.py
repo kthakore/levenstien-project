@@ -19,9 +19,13 @@ def distance(var1, var2):
         var5 = var5 + 0
     else:
         var5 = var5 + 1
-    
+
+    x = len(var1)
+    y = len(var2)
+    z = abs(x-y)
+
 #    assert(pylev.levenshtein(var1, var2), (var3+var4+var5))
-    print("Result is:", var3 + var4 + var5)
+    print("Result is:", var3 + var4 + var5 + z)
 
 
 distance('dog', 'cat')
